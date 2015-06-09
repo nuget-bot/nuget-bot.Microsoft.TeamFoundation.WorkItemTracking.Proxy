@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nuget-bot.Microsoft.TeamFoundation.WorkItemTracking.Proxy</id>
+    <version>12.0.31101.0</version>
+    <title>nuget-bot.Microsoft.TeamFoundation.WorkItemTracking.Proxy</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.workitemtracking.client.aspx</projectUrl>
+    <licenseUrl>https://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.workitemtracking.client.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Microsoft.TeamFoundation.WorkItemTracking.Proxy namespace provides the APIs to access work items in Visual Studio Team Foundation Server.</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft TeamFoundation WorkItemTracking Proxy nuget-bot</tags>
+    <dependencies>
+		<group>
+			<dependency id="nuget-bot.Microsoft.TeamFoundation.Client" version="12.0.21005.3" />
+			<dependency id="nuget-bot.Microsoft.TeamFoundation.Common" version="12.0.30501.1" />
+			<dependency id="nuget-bot.Microsoft.TeamFoundation.WorkItemTracking.Common" version="12.0.31101.0" />
+		</group>
+	</dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="**\Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll" target="lib" />
+  </files>
+</package>
